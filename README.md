@@ -19,7 +19,7 @@ A aplicação consiste um ecommerce de produtos aonde você pode ir adicionando 
 ![Imagem 3](https://github.com/mauricioraypereira/ecommerce-react-vite/blob/master/src/assets/Done.png)
 
 # Tecnologias utilizadas
-## Back end
+## Front end
 - React.js
 - Vite
 - Javascript
