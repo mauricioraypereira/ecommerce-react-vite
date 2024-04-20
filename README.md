@@ -1,8 +1,49 @@
-# React + Vite
+# Ecommerce React Vite
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/mauricioraypereira/ecommerce-react-vite/blob/main/LICENSE) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sobre o projeto
 
-Currently, two official plugins are available:
+Ecommerce React Vite é uma aplicação frontend construída durante o curso de **Java COMPLETO Programação Orientada a Objetos + Projetos**, com o intuito de mostrar os conhecimento aprendidos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação consiste um ecommerce de produtos aonde você pode ir adicionando e/ou removendo do carrinho e depois finalizar o pedido.
+
+## Screenshots
+
+### Catálogo
+![Imagem 1](https://github.com/mauricioraypereira/ecommerce-react-vite/blob/master/src/assets/Cart.png)
+
+### Carrinho de Compras
+![Imagem 2](https://github.com/mauricioraypereira/ecommerce-react-vite/blob/master/src/assets/Cart2.png)
+
+### Tela de Compra Finalizada
+![Imagem 3](https://github.com/mauricioraypereira/ecommerce-react-vite/blob/master/src/assets/Done.png)
+
+# Tecnologias utilizadas
+## Back end
+- React.js
+- Vite
+- Javascript
+
+# Como executar o projeto
+
+## Front end
+Pré-requisitos: Node.js
+
+```bash
+# clonar repositório
+git clone https://github.com/mauricioraypereira/ecommerce-react-vite
+
+# abrir o projeto na sua IDE
+Eu utilizei o [VSCODE](https://code.visualstudio.com/download)
+
+# Abrir um terminal na pasta do projeto e rodar os seguintes comandos:
+npm i react-router-dom react-toastify
+npm run dev
+```
+
+# Autor
+
+Maurício Ray Madeira Pereira
+
+https://www.linkedin.com/in/mauricio-ray-madeira-pereira-94a515109/
+
