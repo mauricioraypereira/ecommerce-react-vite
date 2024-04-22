@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Ecommerce React Vite é uma aplicação frontend construída durante o curso de **Java COMPLETO Programação Orientada a Objetos + Projetos**, com o intuito de mostrar os conhecimento aprendidos.
+Ecommerce React Vite é uma aplicação frontend construída durante o curso de **React JS com TypeScript Direto ao Ponto c/ projetos**, com o intuito de mostrar os conhecimento aprendidos.
 
 A aplicação consiste um ecommerce de produtos aonde você pode ir adicionando e/ou removendo do carrinho e depois finalizar o pedido.
 
