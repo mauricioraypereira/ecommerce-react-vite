@@ -1,5 +1,4 @@
-import React from 'react'
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom';
 import SimpleButton from '../../buttons/SimpleButton/SimpleButton';
 
 const ThankYouPage = () => {
@@ -22,6 +21,6 @@ const ThankYouPage = () => {
             <SimpleButton content="Voltar ao Catálogo" onClick={() => navigate("/")}></SimpleButton>
         </div>
     )
-}
+};
 
-export default ThankYouPage
+export default ThankYouPage;

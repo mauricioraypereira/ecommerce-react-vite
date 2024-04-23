@@ -1,9 +1,9 @@
-import React from 'react'
 import CartItem from './CartItem/CartItem';
-import './Cart-Style.css'
 import CheckoutButton from '../../buttons/CheckoutButton/CheckoutButton';
+import PropTypes from 'prop-types';
+import './Cart-Style.css';
 
-const Cart = ({cartItems, onUpdateCart, onRemoveFromCart, setCartItems}) => {
+const Cart = ({ cartItems, onUpdateCart, onRemoveFromCart, setCartItems }) => {
     const totalPrice = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
   
     return (
@@ -31,4 +31,18 @@ const Cart = ({cartItems, onUpdateCart, onRemoveFromCart, setCartItems}) => {
     );
 };
 
-export default Cart
+Cart.propTypes = {
+    cartItems: PropTypes.arrayOf(
+        PropTypes.shape({
+          id: PropTypes.number,
+          name: PropTypes.string,
+          price: PropTypes.number,
+          image: PropTypes.string,
+      })   
+    ).isRequired,
+    onUpdateCart: PropTypes.func.isRequired,
+    onRemoveFromCart: PropTypes.func.isRequired,
+    setCartItems: PropTypes.func.isRequired,
+};
+
+export default Cart;

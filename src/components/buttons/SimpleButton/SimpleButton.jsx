@@ -1,13 +1,17 @@
-import React from 'react'
+import PropTypes from 'prop-types';
+import './SimpleButton-Style.css';
 
-import './SimpleButton-Style.css'
+const SimpleButton = ({ content, onClick }) => {
+    return (
+        <button onClick={onClick}>
+            {content}
+        </button>
+    )
+};
 
-const SimpleButton = ({content, onClick}) => {
-  return (
-    <button onClick={onClick}>
-        {content}
-    </button>
-  )
-}
+SimpleButton.propTypes = {
+    content: PropTypes.string.isRequired,
+    onClick: PropTypes.func.isRequired,
+};
 
-export default SimpleButton
+export default SimpleButton;
